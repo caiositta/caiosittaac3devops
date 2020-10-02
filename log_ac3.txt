@@ -1,0 +1,57 @@
+2020-10-02T00:31:38.776415+00:00 app[api]: Release v1 created by user caiositta@gmail.com
+2020-10-02T00:31:38.776415+00:00 app[api]: Initial release by user caiositta@gmail.com
+2020-10-02T00:31:38.949098+00:00 app[api]: Enable Logplex by user caiositta@gmail.com
+2020-10-02T00:31:38.949098+00:00 app[api]: Release v2 created by user caiositta@gmail.com
+2020-10-02T00:32:23.000000+00:00 app[api]: Build started by user caiositta@gmail.com
+2020-10-02T00:32:49.885554+00:00 app[api]: Deploy 8ee774f5 by user caiositta@gmail.com
+2020-10-02T00:32:49.885554+00:00 app[api]: Release v3 created by user caiositta@gmail.com
+2020-10-02T00:32:49.906133+00:00 app[api]: Scaled to web@1:Free by user caiositta@gmail.com
+2020-10-02T00:32:53.449177+00:00 heroku[web.1]: Starting process with command `python msg.py`
+2020-10-02T00:32:56.428760+00:00 app[web.1]: * Serving Flask app "msg" (lazy loading)
+2020-10-02T00:32:56.428887+00:00 app[web.1]: * Environment: production
+2020-10-02T00:32:56.428980+00:00 app[web.1]: WARNING: Do not use the development server in a production environment.
+2020-10-02T00:32:56.429053+00:00 app[web.1]: Use a production WSGI server instead.
+2020-10-02T00:32:56.429113+00:00 app[web.1]: * Debug mode: off
+2020-10-02T00:32:56.447491+00:00 app[web.1]: * Running on http://0.0.0.0:9313/ (Press CTRL+C to quit)
+2020-10-02T00:32:57.898567+00:00 heroku[web.1]: State changed from starting to up
+2020-10-02T00:33:15.000000+00:00 app[api]: Build succeeded
+2020-10-02T00:37:52.000000+00:00 app[api]: Build started by user caiositta@gmail.com
+2020-10-02T00:38:21.131032+00:00 app[api]: Deploy 1f9fdd5c by user caiositta@gmail.com
+2020-10-02T00:38:21.131032+00:00 app[api]: Release v4 created by user caiositta@gmail.com
+2020-10-02T00:38:21.414890+00:00 heroku[web.1]: Restarting
+2020-10-02T00:38:21.426836+00:00 heroku[web.1]: State changed from up to starting
+2020-10-02T00:38:22.681144+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2020-10-02T00:38:22.797067+00:00 heroku[web.1]: Process exited with status 143
+2020-10-02T00:38:24.977504+00:00 heroku[web.1]: Starting process with command `python msg.py`
+2020-10-02T00:38:27.786625+00:00 app[web.1]: * Serving Flask app "msg" (lazy loading)
+2020-10-02T00:38:27.786656+00:00 app[web.1]: * Environment: production
+2020-10-02T00:38:27.786664+00:00 app[web.1]: WARNING: Do not use the development server in a production environment.
+2020-10-02T00:38:27.786664+00:00 app[web.1]: Use a production WSGI server instead.
+2020-10-02T00:38:27.786715+00:00 app[web.1]: * Debug mode: off
+2020-10-02T00:38:27.802254+00:00 app[web.1]: * Running on http://0.0.0.0:11137/ (Press CTRL+C to quit)
+2020-10-02T00:38:29.000000+00:00 app[api]: Build succeeded
+2020-10-02T00:38:29.288393+00:00 heroku[web.1]: State changed from starting to up
+2020-10-02T00:38:37.804165+00:00 app[web.1]: 10.37.156.31 - - [02/Oct/2020 00:38:37] "GET / HTTP/1.1" 200 -
+2020-10-02T00:38:37.807453+00:00 heroku[router]: at=info method=GET path="/" host=caioac3.herokuapp.com request_id=9559f16b-934a-4205-8d3e-02004e241758 fwd="168.121.99.47" dyno=web.1 connect=1ms service=4ms status=200 bytes=187 protocol=https
+2020-10-02T00:38:38.043114+00:00 app[web.1]: 10.37.156.31 - - [02/Oct/2020 00:38:38] "GET /favicon.ico HTTP/1.1" 404 -
+2020-10-02T00:38:38.046768+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=caioac3.herokuapp.com request_id=2565b004-59d4-455a-82b8-e22cdad817ba fwd="168.121.99.47" dyno=web.1 connect=1ms service=24ms status=404 bytes=379 protocol=https
+2020-10-02T00:52:16.430681+00:00 app[web.1]: 10.30.235.17 - - [02/Oct/2020 00:52:16] "GET / HTTP/1.1" 200 -
+2020-10-02T00:52:16.431712+00:00 heroku[router]: at=info method=GET path="/" host=caioac3.herokuapp.com request_id=c939feac-abb8-413a-aad9-101119e51d3a fwd="168.121.99.47" dyno=web.1 connect=0ms service=3ms status=200 bytes=187 protocol=https
+2020-10-02T00:53:09.000000+00:00 app[api]: Build started by user caiositta@gmail.com
+2020-10-02T00:53:32.459693+00:00 app[api]: Release v5 created by user caiositta@gmail.com
+2020-10-02T00:53:32.459693+00:00 app[api]: Deploy acb4fe08 by user caiositta@gmail.com
+2020-10-02T00:53:32.678478+00:00 heroku[web.1]: Restarting
+2020-10-02T00:53:32.681005+00:00 heroku[web.1]: State changed from up to starting
+2020-10-02T00:53:33.964857+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2020-10-02T00:53:34.078219+00:00 heroku[web.1]: Process exited with status 143
+2020-10-02T00:53:35.365302+00:00 heroku[web.1]: Starting process with command `python msg.py`
+2020-10-02T00:53:37.495059+00:00 app[web.1]: * Serving Flask app "msg" (lazy loading)
+2020-10-02T00:53:37.495084+00:00 app[web.1]: * Environment: production
+2020-10-02T00:53:37.495179+00:00 app[web.1]: WARNING: Do not use the development server in a production environment.
+2020-10-02T00:53:37.495232+00:00 app[web.1]: Use a production WSGI server instead.
+2020-10-02T00:53:37.495296+00:00 app[web.1]: * Debug mode: off
+2020-10-02T00:53:37.519204+00:00 app[web.1]: * Running on http://0.0.0.0:14311/ (Press CTRL+C to quit)
+2020-10-02T00:53:38.141294+00:00 heroku[web.1]: State changed from starting to up
+2020-10-02T00:53:41.000000+00:00 app[api]: Build succeeded
+2020-10-02T00:53:49.191907+00:00 app[web.1]: 10.102.191.252 - - [02/Oct/2020 00:53:49] "GET / HTTP/1.1" 200 -
+2020-10-02T00:53:49.195930+00:00 heroku[router]: at=info method=GET path="/" host=caioac3.herokuapp.com request_id=22d9ef4b-e614-450f-a7d1-f9a3cd9d95cd fwd="168.121.99.47" dyno=web.1 connect=1ms service=5ms status=200 bytes=566 protocol=https
