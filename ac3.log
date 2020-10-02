@@ -1,0 +1,17 @@
+2020-10-02T00:31:38.776415+00:00 app[api]: Release v1 created by user caiositta@gmail.com
+2020-10-02T00:31:38.776415+00:00 app[api]: Initial release by user caiositta@gmail.com
+2020-10-02T00:31:38.949098+00:00 app[api]: Enable Logplex by user caiositta@gmail.com
+2020-10-02T00:31:38.949098+00:00 app[api]: Release v2 created by user caiositta@gmail.com
+2020-10-02T00:32:23.000000+00:00 app[api]: Build started by user caiositta@gmail.com
+2020-10-02T00:32:49.885554+00:00 app[api]: Deploy 8ee774f5 by user caiositta@gmail.com
+2020-10-02T00:32:49.885554+00:00 app[api]: Release v3 created by user caiositta@gmail.com
+2020-10-02T00:32:49.906133+00:00 app[api]: Scaled to web@1:Free by user caiositta@gmail.com
+2020-10-02T00:32:53.449177+00:00 heroku[web.1]: Starting process with command `python msg.py`
+2020-10-02T00:32:56.428760+00:00 app[web.1]: * Serving Flask app "msg" (lazy loading)
+2020-10-02T00:32:56.428887+00:00 app[web.1]: * Environment: production
+2020-10-02T00:32:56.428980+00:00 app[web.1]: WARNING: Do not use the development server in a production environment.
+2020-10-02T00:32:56.429053+00:00 app[web.1]: Use a production WSGI server instead.
+2020-10-02T00:32:56.429113+00:00 app[web.1]: * Debug mode: off
+2020-10-02T00:32:56.447491+00:00 app[web.1]: * Running on http://0.0.0.0:9313/ (Press CTRL+C to quit)
+2020-10-02T00:32:57.898567+00:00 heroku[web.1]: State changed from starting to up
+2020-10-02T00:33:15.000000+00:00 app[api]: Build succeeded
