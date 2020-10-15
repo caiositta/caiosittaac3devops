@@ -8,29 +8,22 @@ app = Flask(__name__)
 @app.route('/')
 def nao_entre_em_panico():
 
-    limite = 100
-    c = 1
-    p = 1
-    numero = 3
+    proximo = 1
+    anterior = 0
+    limite = 50
+    found = 0
+    resposta = "0,"
 
-    primos = "2,"
+    while found < limite:
+        tmp = proximo
+        proximo = proximo + anterior
+        anterior = tmp
+        found=found+1
+        resposta+=str(proximo) + ","
 
-    while p < limite:
-        ehprimo = 1
-        for i in range(2, numero):
-            if numero % i == 0:
-                ehprimo = 0
-                break
-        if (ehprimo):
-            primos = primos+str(numero) + ","
-            p += 1
-            if(p % 10 == 0):
-                primos = primos + "<br>"
-        numero += 1
-
-    return primos
+    return resposta
 
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
-    app.run(host='0.0.0.0', port=port)
+    app.run(host='0.0.0.0', port=port
