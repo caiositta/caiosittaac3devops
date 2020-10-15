@@ -1,4 +1,4 @@
 From python:3.6.1-alpine
 RUN pip install flask
-COPY app.py /app.py
+COPY msg.py /msg.py
 CMD ["python", "msg.py"
